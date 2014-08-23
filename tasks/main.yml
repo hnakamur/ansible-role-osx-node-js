@@ -1,0 +1,5 @@
+---
+- homebrew: name=node state=latest
+
+- npm: name={{ item }} global=yes state=latest
+  with_items: osx_node_global_packages
