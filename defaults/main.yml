@@ -3,3 +3,4 @@ osx_node_global_packages:
   - grunt-cli
   - gulp
   - webpack
+  - karma-cli

@@ -3,3 +3,5 @@
 
 - npm: name={{ item }} global=yes state=latest
   with_items: osx_node_global_packages
+
+- copy: src=karma.zsh dest={{ zsh_custom_dir }}/karma.zsh
